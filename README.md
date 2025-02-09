@@ -1,6 +1,8 @@
-# Welcome to your Expo app 👋
+# Welcome to the fixed StickerSmash example
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is the example Expo project from the documentation, fixed due to the incorrect `app.json` that's provided. Feel free to use this version to begin your projects on. 
+
+Enjoy! 
 
 ## Get started
 
