@@ -18,7 +18,7 @@ export default function Index() {
     });
 
     if (!result.canceled) {
-      console.log(result);
+      setSelectedImage(result.assets[0].uri);
     } else {
       alert('You did not select any image.');
     }
@@ -27,7 +27,7 @@ export default function Index() {
   return (
     <View style={styles.container}>
     <View style={styles.imageContainer}>
-      <ImageViewer imgSource={PlaceholderImage} />
+      <ImageViewer imgSource={PlaceholderImage} selectedImage={selectedImage} />
     </View>
     <View style={styles.footerContainer}>
         <Button theme="primary" label="Choose a photo" onPress={pickImageAsync}  />
